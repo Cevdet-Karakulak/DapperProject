@@ -37,23 +37,7 @@ Bu proje, **M&Y Yazılım Akademi Eğitim Danışmanlık** bünyesinde, **Murat 
 
 ## 🏗️ Proje Yapısı
 
-DapperDatasetProject/
-├── Controllers/
-│ └── SalesController.cs
-├── Models/
-│ └── Sales.cs
-├── DTOs/
-│ └── SalesDto.cs, DashboardDto.cs
-├── Services/
-│ └── SalesService.cs
-├── Context/
-│ └── DapperContext.cs
-├── Views/
-│ └── Dashboard.cshtml, List.cshtml
-├── wwwroot/
-│ └── CSS, JS, görseller
-├── appsettings.json
-└── Program.cs / Startup.cs
+
 ---
 
 ## 🔗 Dataset Kaynağı
