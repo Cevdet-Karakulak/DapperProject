@@ -33,33 +33,10 @@ Bu proje, **M&Y Yazılım Akademi Eğitim Danışmanlık** bünyesinde, **Murat 
 - 📊 **Veri Görselleştirme:** Bar, Pie ve Line grafik türleri (Chart.js)  
 - ⚡ **Yüksek Performans:** Dapper ile büyük veri setinde hızlı sorgulama  
 
----
-## 🏗️ Proje Yapısı
-
-```plaintext
-DapperDatasetProject/
-├── Controllers/
-│   └── SalesController.cs
-├── Models/
-│   └── Sales.cs
-├── DTOs/
-│   └── SalesDto.cs, DashboardDto.cs
-├── Services/
-│   └── SalesService.cs
-├── Context/
-│   └── DapperContext.cs
-├── Views/
-│   └── Dashboard.cshtml, List.cshtml
-├── wwwroot/
-│   └── CSS, JS, görseller
-├── appsettings.json
-└── Program.cs / Startup.cs
-
----
 
 ## 🔗 Dataset Kaynağı
 
-- **Kaggle Dataset:** *10 Million Rows Turkish Market Sales Dataset*  
+**Kaggle Dataset:** *10 Million Rows Turkish Market Sales Dataset*  
 - **Paylaşan:** Ömer Çolakoğlu  
 - **İçerik:** Ürün, müşteri, sipariş tarihi, bölge, şehir, kategori, fiyat vb.
 
@@ -86,32 +63,15 @@ DapperDatasetProject/
 <img width="1891" height="910" alt="Image" src="https://github.com/user-attachments/assets/953507f8-96d6-447b-93ae-7d706734f484" />
 
 <img width="1899" height="913" alt="Image" src="https://github.com/user-attachments/assets/8e5cb443-e9b1-4b69-8f57-4946aa18ce87" />
+
 ---
 
-## ⚙️ Kurulum Talimatları
 
-```bash
-# Projeyi klonla
-git clone https://github.com/kullaniciadi/DapperDatasetProject
+## 📌 Notlar & Geliştirici Bilgileri
 
-# Projeyi aç
-cd DapperDatasetProject
+- Tüm veritabanı işlemleri **Dapper ORM** ile yapılmıştır.
+- **DTO yapısı** ve optimize sorgular sayesinde büyük veri setleri ile yüksek performans.
+- **Katmanlı mimari** ilkesine uygun temiz kod yapısı.
 
-# NuGet paketlerini yükle
-dotnet restore
-
-# SQL bağlantı ayarını yap (appsettings.json)
-
-# Uygulamayı çalıştır
-dotnet run
-
-# 📌 Notlar & Geliştirici Bilgileri
-Tüm veritabanı işlemleri Dapper ORM ile yapılmıştır.
-
-DTO yapısı ve optimize sorgular sayesinde büyük veri setleri ile yüksek performans.
-
-Katmanlı mimari ilkesine uygun temiz kod yapısı.
-
-✨ Geliştirici
-💻 [Cevdet Karakulak - (https://www.linkedin.com/in/cevdet/)]
-Proje kapsamında soru, öneri ve katkılarınızı memnuniyetle karşılarım!
+## ✨ Geliştirici  
+💻 [Cevdet Karakulak](https://www.linkedin.com/in/cevdet/)
